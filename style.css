@@ -3,10 +3,20 @@
 body{
     width: 100%;
     height: 100vh;
-    display: flex;
+    display: block;
     align-items: center;
     justify-items: center;
-    background-color: black;
+    background-image: linear-gradient(to top, #0a1b22 ,#75A8BD);
+}
+
+h1{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
 }
 
 div.main{
@@ -14,16 +24,21 @@ div.main{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    border: 5px solid;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.466);
 }
 
 input{
     position: relative;
-    color: #fff;
+    color: #ffffff;
     padding: 17px;
     outline: none;
     font-size: 30px;
     font-family: 'Bebas Neue', cursiva;
     border-radius: 25%;
+
 }
 
 .num{
@@ -34,7 +49,7 @@ input{
 .text{
     width: 160px;
     height: 26px;
-    border-radius: 22px;
+    border-radius: 10px;
     letter-spacing: 5px;
     text-align: center;
     margin-bottom: 12px;
@@ -55,9 +70,9 @@ input{
 }
 
 .maincolor{
-    background-color: black;
+    background-color: #617D88;
 }
 
 .bto{
-    color: black;
+    color: #19333D;
 }
